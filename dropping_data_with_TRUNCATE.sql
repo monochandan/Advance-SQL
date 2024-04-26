@@ -1,0 +1,2 @@
+--- dropping data with TRUNCATE ---
+
