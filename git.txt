@@ -1,0 +1,12 @@
+### if remote: error: happens
+
+delete previous .git using powershell:  Remove-Item -Path .git -Recurse -Force
+or,
+delete previous .git using bash : rm -rf .git 
+
+
+git init
+git add .
+git commit -m "mssg"
+git remote add origin repo-url
+git push -u origin main
